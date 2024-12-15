@@ -100,8 +100,3 @@ class Wistron_zinExtension(omni.ext.IExt):
 
     def on_shutdown(self):
         print("[wistron_zin] wistron_zin shutdown")
-
-# Assuming 'stage' is your UsdStage object and 'path_str' is the string path
-path_str = "/path/to/your/prim"
-path = Sdf.Path(path_str)
-prim = stage.GetPrimAtPath(path)
